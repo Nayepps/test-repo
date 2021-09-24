@@ -1,0 +1,15 @@
+mgm_ip: 10.0.2.255
+sdn_controller: 10.20.2.2
+vlans:
+  red:
+   id: 10
+ blue:
+   id: 20
+green:
+   id: 30
+ports:
+ 1: [ 30 ]
+ 2: [ 20 ]
+ 3: [ 10, 20]
+ 4: [ 40, 22]
+ 5: [ 55, 23]
